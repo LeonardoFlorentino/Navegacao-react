@@ -1,10 +1,24 @@
-body{
-    font-family: Oswald;
+@font-face{
+    font-family: 'Helvetica';
+    src: url('./fonts/static/Helvetica-400.ttf');
+  }
+  
+  *{
+    font-family: 'Helvetica','monospace';
+  }
+  
+  body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: #2aa9e0;
-    color: #fff;
-}
+    color: white;
+  }
 
 h1,h2,h3{
     font-weight: 200;
     text-align: center;
 }
+

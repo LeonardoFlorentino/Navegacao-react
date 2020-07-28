@@ -3,8 +3,8 @@ import './Button.css'
 
 export default (props) =>{
     return(
-        <React.Fragment>
+        <div>
             < button className="button">Gerar</button>
-        </React.Fragment>
+        </div>
     )
 }
