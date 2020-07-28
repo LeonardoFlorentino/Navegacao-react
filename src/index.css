@@ -5,6 +5,7 @@
   
   *{
     font-family: 'Helvetica','monospace';
+    box-sizing: border-box;
   }
   
   body{
@@ -12,7 +13,6 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: #2aa9e0;
     color: white;
   }

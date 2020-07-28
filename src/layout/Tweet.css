@@ -1,20 +1,21 @@
 .tweet{
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 80px 1fr;
     grid-template-rows: 50px 1fr 50px;
-    box-sizing: border-box;
     width: 80vw;
-    height: 200px;
-    background-color: aliceblue;
     border-radius: 5px;
-    border: 3px solid aliceblue;
-}
-
-.tweet .img{
-    display:flex;
-    flex-direction: row;
+    border: 5px solid aliceblue;
+    background-color: white;
 }
 
 .tweet:hover{
     background-color: #f4f8fb;
 }
+
+
+
+.conteudo{
+    font-size: 12px;
+    grid-column: 2 / 3;
+}
+

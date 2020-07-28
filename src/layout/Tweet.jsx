@@ -4,17 +4,16 @@ import './Tweet.css'
 
 export default props =>{
 
-    const components = 
-        <div>
+/*     const components = 
+        <React.Fragment>
             {React.Children.map(props.children,(child, id) => {
-                console.log(id)
                 return cloneElement(child, {...props,key: id})
-            })[0]}
-        </div>
+            })[1]}
+        </React.Fragment> */
 
     return(
         <div className="tweet">
-            {components}
+            {props.children}
         </div>
     )
 }
