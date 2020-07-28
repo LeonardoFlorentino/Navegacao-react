@@ -6,7 +6,7 @@ export default (props) =>{
         className: "icone"
     }
     return (
-        <div>
+        <div className="icone">
             {React.Children.map(props.children,(child)=>cloneElement(child,{...estilo}))}
         </div >
     )
