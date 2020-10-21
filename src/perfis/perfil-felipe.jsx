@@ -26,7 +26,7 @@ export default (props) => {
                     <img src={img_verificado} alt="símbolo de certificação"></img>
                 </Nome>
                 <Conteudo>
-                    Ontem (27/07) nossa equipe derrubou 1247 vídeos enviados p/ Facebook e Instagram com informações caluniosas sobre mim, a maioria com acusações de pedofilia.
+                    {props.valor}
                 </Conteudo>
             </Tweet>
         </React.Fragment>

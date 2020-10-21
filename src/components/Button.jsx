@@ -6,7 +6,7 @@ export default (props) =>{
     return(
         <div className="btn">
             <img src={logo} alt="logo twitter"></img>
-            <button className="button">Gerar</button>
+            <button className="button" onClick={e => props.click()}>Gerar</button>
         </div>
     )
 }

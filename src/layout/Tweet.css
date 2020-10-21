@@ -1,11 +1,12 @@
 .tweet{
     display: grid;
-    grid-template-columns: 45px 1fr;
-    grid-template-rows: 30px 1fr 50px;
+    grid-template-columns: 50px 1fr;
+    grid-template-rows: 15px 1fr 50px;
     width: 80vw;
     border-radius: 5px;
     border: 5px solid aliceblue;
     background-color: white;
+    padding: 10px 0px 0px 0px;
 }
 
 .tweet:hover{

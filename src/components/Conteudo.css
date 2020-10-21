@@ -1,7 +1,8 @@
 .conteudo{
+    align-self:flex-start;
+    align-items: flex-start;
     height: 100%;
     color:black;
     font-size: 6pt;
     grid-column: 2 / 3;
-    padding: 0px 0px;
 }

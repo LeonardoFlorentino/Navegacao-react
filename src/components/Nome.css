@@ -1,12 +1,11 @@
 img{
     width: 8pt;
     height: 8pt;
-    margin: 1pt;
-
-
+    margin: 0px 1px; 
 }
 
 .nome{
+    box-sizing: border-box;
     font-size: 10pt;
     color:black;
     left: -20px;
